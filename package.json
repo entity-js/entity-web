@@ -1,0 +1,28 @@
+{
+  "name": "entity-web",
+  "description": "Provides the Web middleware for Entity core.",
+  "keywords": [
+    "Entity", "Web", "Express"
+  ],
+  "author": "Orgun109uk <orgun109uk@gmail.com>",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/entity-js/entity-web.git"
+  },
+  "scripts": {
+    "eslint": "eslint index.js ./lib",
+    "jshint": "jshint index.js ./lib",
+    "docs": "jsdoc -c ./jsdoc.json"
+  },
+  "dependencies": {
+    "async": "^1.4.2",
+    "nsloader": "^0.1.4"
+  },
+  "devDependencies": {
+    "eslint": "^1.2.1",
+    "jaguarjs-jsdoc": "git+https://github.com/davidshimjs/jaguarjs-jsdoc.git",
+    "jsdoc": "git+https://github.com/jsdoc3/jsdoc.git",
+    "jshint": "^2.8.0"
+  }
+}
